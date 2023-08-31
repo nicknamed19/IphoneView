@@ -1,0 +1,197 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+html {
+	font-size: 6.25%;
+    background-color: black;
+}
+
+.background-img {
+    height: 100vh;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+}
+
+.fondo {
+    background-color: #EF6680;
+    display: flex;
+    flex-direction: column;
+    width: 238rem;
+    height: 490rem;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 76rem;
+    left: 39.2vw;
+    border-radius: 28rem;
+}
+
+.header {
+    position: absolute;
+    right: 12rem;
+    top: 8rem;    
+    display: flex;
+    width: 50rem;
+    justify-content: space-evenly;
+}
+
+.header picture img {
+    width: 10rem;
+    height: 10rem;
+}
+
+.day-time {
+    position: absolute;
+    top: 20rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.lock img {
+    width: 10rem;
+    height: 10rem;
+    margin-bottom: 10rem;
+}
+
+.day {
+    font-size: small;
+}
+
+.time {
+    font-size:60rem;
+    margin-top: 5rem;
+}
+
+.album img{
+    height: 200rem;
+    width: 200rem;
+    position: relative;
+    bottom: 10rem;
+}
+
+.reproductor {
+    height: 79rem;
+    width: 226rem;
+    background-color: rgba(56, 57, 62, 0.9);
+    position: absolute;
+    backdrop-filter: blur(10rem);
+    border-radius: 18px;
+    bottom: 114rem;
+}
+
+.cancion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.cancion p {
+    font-size:x-small;
+}
+
+.cancion .nombre {
+    font-weight:600;
+    margin-right: 10rem;
+}
+
+.cancion .artista {
+    opacity: .8;
+}
+
+.cancion .explicito img {
+    position: absolute;
+    width: 10rem;
+    height: 10rem;
+    top: 7rem;
+    right: 90rem;
+}
+
+.media-bar {
+    width: 150rem;
+    height: 5rem;
+    background-color: white;
+    border-radius: 20rem;
+    position: relative;
+    opacity: .8;
+    top: 10rem;
+    left: 40rem;
+}
+
+.start {
+    position: absolute;
+    top: 37rem;
+    left: 15rem;
+}
+
+.end {
+    position: absolute;
+    top: 37rem;
+    right: 10rem;
+}
+
+.controles {
+    position: relative;
+    left: 30rem;
+    top: 18rem;
+}
+
+.controles picture img {
+    width: 20rem;
+    height: 20rem;
+    margin-left: 25rem;
+}
+
+.footer picture {
+    display: flex;
+    background-color: rgba(56, 57, 62, 0.9);
+    position: absolute;
+    width: 35rem;
+    height: 35rem;
+    bottom: 24rem;
+    border-radius: 100%;
+    backdrop-filter: blur(100rem);
+    justify-content: center;
+    align-items: center;
+}
+
+.footer picture img {
+    width: 20rem;
+    height: 20rem;
+}
+
+.camara {
+    right: 20rem;
+}
+
+.msg-desbloqueo {
+    position: absolute;
+    right: 70rem;
+    bottom: 10rem;
+    font-size: 10rem;
+    text-align: center;
+    width: 94rem;
+    height: 32rem;
+}
+
+.desbloqueo {
+    width: 100rem;
+    height: 4rem;
+    background-color: white;
+    border-radius: 20rem;
+    position: absolute;
+    bottom: 4rem;
+    right: 69rem;
+
+}
+
+.ligth {
+    left: 20rem;
+}
